@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+.hero-bg-image{
+    background:url("https://images.unsplash.com/photo-1560253023-3ec5d502959f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center /cover ;
+    background-attachment:fixed;
+    height:600px;
+}
+.it{
+  background-color:white;
+  height:50px;
+  width:300px;
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:5px
+}
+
